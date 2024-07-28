@@ -10,7 +10,7 @@ function App() {
 
   const registerUser = async (event) => {
     try {
-      const res= await fetch("http://localhost:4000/register",{
+      const res= await fetch("https://resume-builder-backend-y10b.onrender.com",{
         method:"POST",
         headers:{
           "Content-Type": "application/json"

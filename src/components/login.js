@@ -8,7 +8,7 @@ function App() {
 
   const loginUser = async(event) =>{
     try {
-      const res= await fetch("http://localhost:4000/login",{
+      const res= await fetch("https://resume-builder-backend-y10b.onrender.com",{
         method:"POST",
         headers:{
           "Content-Type": "application/json"

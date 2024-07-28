@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #3f3d3d;
+    color: rgb(204, 174, 174);
+    font-family: Arial, sans-serif;
+  }
+  
+  .BrandName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .BrandName span {
+    margin: 0 0.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .letter1 { color: #e63946; } /* Red */
+  .letter2 { color: #f1fa3c; } /* Yellow */
+  .letter3 { color: #4ecdc4; } /* Aqua */
+  .letter4 { color: #ee6c4d; } /* Coral */
+  .letter5 { color: #8338ec; } /* Purple */
+  .letter6 { color: #ffbe0b; } /* Orange */
+  .letter7 { color: #3a86ff; } /* Blue */
+  .letter8 { color: #43aa8b; } /* Green */
+  .letter9 { color: #f15bb5; } /* Pink */
+  .letter10 { color: #9d4edd; } /* Violet */
+  .letter11 { color: #2ec4b6; } /* Teal */
+  
+  .BrandName:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .BrandName:hover .letter1 { color: #5834a0; } /* Light Red */
+  .BrandName:hover .letter2 { color: #9d1323; } /* Light Yellow */
+  .BrandName:hover .letter3 { color: #2a962a; } /* Light Aqua */
+  .BrandName:hover .letter4 { color: #1dd1a1; } /* Light Green */
+  .BrandName:hover .letter5 { color: #ff9ff3; } /* Light Pink */
+  .BrandName:hover .letter6 { color: #54a0ff; } /* Light Blue */
+  .BrandName:hover .letter7 { color: #5f27cd; } /* Light Purple */
+  .BrandName:hover .letter8 { color: #c8d6e5; } /* Light Gray */
+  .BrandName:hover .letter9 { color: #ff6b6b; } /* Light Red */
+  .BrandName:hover .letter10 { color: #feca57; } /* Light Yellow */
+  .BrandName:hover .letter11 { color: #48dbfb; } /* Light Aqua */
+  
+  .links a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .links a:hover {
+    color: #007bff;
+  }
+  
+  .auth-links a {
+    margin-left: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .auth-links .register-button {
+    background-color: white;
+    color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-links .register-button:hover {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auth-links .login-button {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-links .login-button:hover {
+    background-color: white;
+    color: #007bff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
